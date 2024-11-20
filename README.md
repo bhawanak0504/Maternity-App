@@ -103,19 +103,6 @@ To start using or contributing to the project, follow these steps:
 
 ---
 
-## Laravel Chatbot Using Vultr API 🗝
-This is a Laravel-based chatbot designed to assist expectant mothers by answering common pregnancy-related queries. The chatbot provides guidance on topics like health, diet, common pregnancy symptoms, post-birth care, and more. It uses the Vultr API key for certain functionalities and can be easily extended to accommodate more questions and responses.
-
-*Features*
-
-*CSRF Protection*: The application uses CSRF tokens for secure communication between the frontend and backend.
-
-*Customizable Responses*: The chatbot logic is easily extendable. Add new questions and responses as needed by modifying the handleMessage method.
-
-*User Interface*: A simple and interactive chat interface that allows users to interact with the chatbot seamlessly.
-
-*Github-Link*: [https://github.com/Bhawanak0504/Lavarel-Chatbot](https://github.com/bhawanak0504/Lavarel-Chatbot)
-
 *Ask Questions*
 You can ask the chatbot the following questions (and many more):
 
