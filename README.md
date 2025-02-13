@@ -114,6 +114,25 @@ You can ask the chatbot the following questions (and many more):
 "How to manage stress during pregnancy?"
 
 ---
+## Laravel Chatbot Using Vultr API 🗝️
+
+This is a Laravel-based chatbot designed to assist expectant mothers by answering common pregnancy-related queries. The chatbot provides guidance on topics like health, diet, common pregnancy symptoms, post-birth care, and more. It uses the Vultr API key for certain functionalities and can be easily extended to accommodate more questions and responses.
+
+*Features*
+
+CSRF Protection: The application uses CSRF tokens for secure communication between the frontend and backend.
+
+Customizable Responses: The chatbot logic is easily extendable. Add new questions and responses as needed by modifying the handleMessage method.
+
+User Interface: A simple and interactive chat interface that allows users to interact with the chatbot seamlessly.
+
+Github-Link: https://github.com/bhawanak0504/Lavarel-Chatbot
+
+Ask Questions You can ask the chatbot the following questions (and many more):
+
+"How to stay healthy during pregnancy?" "What are common pregnancy symptoms?" "What should I eat during pregnancy?" "What are the stages of pregnancy?" "Postbirth care tips" "How to manage stress during pregnancy?"
+
+---
 
 ## Use of Vultr Cloud Service ☁
 
