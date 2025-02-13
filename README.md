@@ -171,7 +171,13 @@ Through this app, we aim to:
 [Watch the Demo](https://youtu.be/8eBYlzAw1v8?si=10o4XYklAeI4DOYG)
 
 ---
+## UI/UX Design 🎨
 
+Our app's design is crafted with an intuitive and user-friendly interface to ensure a smooth experience for expectant mothers. Check out the detailed wireframes and design prototypes:
+
+📌 [View on Figma](https://www.figma.com/design/pkyTPrtSwS1htlrqv2lW6P/Maternity-%26-Baby-hub?node-id=0-1&p=f&t=JEpGD7fTWvvTSyuP-0)
+
+---
 ## Contributing 🤝
 
 We welcome contributions from the community! Here’s how you can contribute:
