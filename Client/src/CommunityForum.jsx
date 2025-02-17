@@ -81,7 +81,7 @@ const CommunityForum = () => {
     formData.append('text', newPostText); // Append the post text
   
     try {
-      const response = await fetch('http://localhost:3001/api/upload', {
+      const response = await fetch('https://maternity-hub.onrender.com/api/upload', {
         method: 'POST',
         body: formData,
       });
@@ -282,7 +282,7 @@ const CommunityForum = () => {
 
               </div>
               <p className="post-text">{post.text}</p>
-              {post.image && <img src={`http://localhost:3001${post.image}`} alt="Post" className="post-image"  style={{ width: '300px', height: 'auto' }}/>}
+              {post.image && <img src={`https://maternity-hub.onrender.com${post.image}`} alt="Post" className="post-image"  style={{ width: '300px', height: 'auto' }}/>}
               {/* Render post image */}
               <div className="post-footer">
                 <span onClick={() => handleLike(post.id)}>❤️ {post.likes}</span>

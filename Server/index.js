@@ -150,8 +150,8 @@ app.post('/api/create-checkout-session', async (req, res) => {
               },
           ],
           mode: 'payment',
-          success_url: 'http://localhost:3001/success', // Your success URL
-          cancel_url: 'http://localhost:3001/cancel',   // Your cancel URL
+          success_url: 'https://maternity-hub.onrender.com/success', // Your success URL
+          cancel_url: 'https://maternity-hub.onrender.com/cancel',   // Your cancel URL
       });
 
       res.json({ id: session.id });
@@ -367,8 +367,8 @@ app.post('/api/creates-checkout-session', async (req, res) => {
               },
           ],
           mode: 'payment',
-          success_url: 'http://localhost:3001/success',  // Adjust this URL
-          cancel_url: 'http://localhost:3001/cancel',    // Adjust this URL
+          success_url: 'https://maternity-hub.onrender.com/success',  // Adjust this URL
+          cancel_url: 'https://maternity-hub.onrender.com/cancel',    // Adjust this URL
       });
 
       res.json({ sessionId: session.id });

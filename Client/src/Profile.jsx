@@ -31,7 +31,7 @@ const ProfilePage = () => {
   // Fetch username when the component mounts
   useEffect(() => {
     axios
-      .get('http://localhost:3001/dashboard', { withCredentials: true })
+      .get('https://maternity-hub.onrender.com/dashboard', { withCredentials: true })
       .then(res => {
         if (res.data.message === 'Success') {
           setUsername(res.data.username); // Set username from response

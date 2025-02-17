@@ -19,7 +19,7 @@ const Payment = () => {
         const stripe = await stripePromise;
 
         // Call your backend to create a Checkout session
-        const response = await fetch('http://localhost:3001/api/create-checkout-session', {
+        const response = await fetch('https://maternity-hub.onrender.com/api/create-checkout-session', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',
