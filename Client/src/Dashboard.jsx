@@ -33,7 +33,7 @@ const MyComponent = () => {
     const [showFeelingQuestion, setShowFeelingQuestion] = useState(true); // State to control the visibility of the question
 
     useEffect(() => {
-        axios.get('http://localhost:3001/dashboard', { withCredentials: true })
+        axios.get('https://maternity-hub.onrender.com/dashboard', { withCredentials: true })
             .then(res => {
                 if (res.data.message === 'Success') {
                     setUsername(res.data.username); // Set username from response
