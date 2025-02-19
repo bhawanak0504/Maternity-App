@@ -24,7 +24,7 @@ function Signup() {
     console.log("Email:", email);
     console.log("Password:", password);
     
-    axios.post('http://localhost:3001/register', { name, email, password })
+    axios.post('https://maternity-hub.onrender.com/register', { name, email, password })
     .then(() => {
       alert("Registered Successfully");
       navigate('/login');
