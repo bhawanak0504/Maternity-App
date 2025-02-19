@@ -25,11 +25,12 @@ app.use(express.json());
 // Middleware to enable CORS (Cross-Origin Resource Sharing)
 app.use(
   cors({
-    origin: ["http://localhost:5173"], // Ensure this is the correct frontend port
+    origin: "*", // Allows all origins
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   })
 );
+
 
 // Middleware to parse cookies
 app.use(cookieParser());
