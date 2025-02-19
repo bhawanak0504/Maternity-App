@@ -81,7 +81,7 @@ const CommunityForum = () => {
     formData.append('text', newPostText); // Append the post text
   
     try {
-      const response = await fetch('http://localhost:3001/api/upload', {
+      const response = await fetch('https://maternity-hub.onrender.com/api/upload', {
         method: 'POST',
         body: formData,
       });
