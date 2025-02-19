@@ -10,7 +10,7 @@ const Payment = () => {
         const stripe = await stripePromise;
 
         // Call your backend to create a Payment Intent and get the client secret
-        const response = await fetch('http://localhost:3001/api/create-payment-intent', {
+        const response = await fetch('https://maternity-hub.onrender.com/api/create-payment-intent', {
             method: 'POST',
             headers: {
                 'Content-Type': 'application/json',

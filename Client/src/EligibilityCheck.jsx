@@ -15,7 +15,7 @@ const EligibilityCheck = () => {
     // Open modal when checking eligibility
     setShowModal(true); 
 
-    const response = await fetch('http://localhost:3001/api/check-eligibility', {
+    const response = await fetch('https://maternity-hub.onrender.com/api/check-eligibility', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',

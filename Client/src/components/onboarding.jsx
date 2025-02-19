@@ -10,7 +10,7 @@ import image7 from '../assets/image7.png';
 import image8 from '../assets/image8.png';
 import image9 from '../assets/image9.png';
 
-import "../Onboarding.css";
+import "./onboarding.css";
 
 
 function Onboarding() {

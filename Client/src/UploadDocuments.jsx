@@ -43,7 +43,7 @@ const UploadDocuments = () => {
         [type]: 'Uploading...',
       }));
   
-      const response = await fetch('http://localhost:3001/api/upload-documents', {
+      const response = await fetch('https://maternity-hub.onrender.com/api/upload-documents', {
         method: 'POST',
         body: formData,
       });

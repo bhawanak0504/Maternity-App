@@ -24,6 +24,8 @@ import PregnancyMoodTracker from'./PregnancyMoodTracker';
 
 import Profile from './Profile'
 
+export const API_BASE_URL = "https://maternity-hub.onrender.com";
+
 
 
 
