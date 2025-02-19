@@ -25,12 +25,11 @@ app.use(express.json());
 // Middleware to enable CORS (Cross-Origin Resource Sharing)
 app.use(
   cors({
-    origin: "*", // Allows all origins
+    origin: ["https://maternity-app.onrender.com"], // Ensure this is the correct frontend port
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   })
 );
-
 
 // Middleware to parse cookies
 app.use(cookieParser());
