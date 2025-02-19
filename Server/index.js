@@ -25,7 +25,7 @@ app.use(express.json());
 // Middleware to enable CORS (Cross-Origin Resource Sharing)
 app.use(
   cors({
-    origin: ["http://localhost:5173"], // Ensure this is the correct frontend port
+    origin: ["https://maternity-hub.onrender.com"], // Ensure this is the correct frontend port
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   })
