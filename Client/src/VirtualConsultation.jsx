@@ -112,7 +112,7 @@ const VirtualConsultation = () => {
   // Simulated email sending function
   const sendEmailToDoctor = async (doctorEmail, userName, userEmail, appointmentDate, appointmentTime, meetingLink) => {
     try {
-      const response = await fetch('http://localhost:3001/schedule', {
+      const response = await fetch('https://maternity-hub.onrender.com/schedule', {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
