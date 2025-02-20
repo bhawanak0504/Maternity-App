@@ -18,7 +18,7 @@ import {
 } from '@fortawesome/free-solid-svg-icons';
 import { useNavigate } from 'react-router-dom';
 
-const socket = io('http://localhost:3002'); // Your backend server address
+const socket = io('https://maternity-hub.onrender.com'); // Your backend server address
 
 const doctors = [
   {
