@@ -206,7 +206,7 @@ app.post('/schedule', async (req, res) => {
 
 
 const server = http.createServer(app);
-const io = require('socket.io')(3002, {
+const io = require('socket.io')(server, {
   cors: {
     origin: 'https://maternity-app-chww.onrender.com', // Allow frontend to access
     methods: ['GET', 'POST'],
@@ -401,6 +401,6 @@ app.get('/resources', (req, res) => {
 
 
 // Start the server
-app.listen(3001, '0.0.0.0', () => {
+server.listen(3001, '0.0.0.0', () => {
   console.log("Server is Running on port 3001");
 });
