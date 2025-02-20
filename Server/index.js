@@ -150,8 +150,8 @@ app.post('/api/create-checkout-session', async (req, res) => {
               },
           ],
           mode: 'payment',
-          success_url: 'http://localhost:3001/success', // Your success URL
-          cancel_url: 'http://localhost:3001/cancel',   // Your cancel URL
+          success_url: 'https://maternity-app.onrender/success', // Your success URL
+          cancel_url: 'https://maternity-app.onrender/cancel',   // Your cancel URL
       });
 
       res.json({ id: session.id });
@@ -208,7 +208,7 @@ app.post('/schedule', async (req, res) => {
 const server = http.createServer(app);
 const io = require('socket.io')(3002, {
   cors: {
-    origin: 'http://localhost:5173', // Allow frontend to access
+    origin: 'https://maternity-app-chww.onrender.com', // Allow frontend to access
     methods: ['GET', 'POST'],
   },
 });
@@ -367,8 +367,8 @@ app.post('/api/creates-checkout-session', async (req, res) => {
               },
           ],
           mode: 'payment',
-          success_url: 'http://localhost:3001/success',  // Adjust this URL
-          cancel_url: 'http://localhost:3001/cancel',    // Adjust this URL
+          success_url: 'https://maternity-hub.onrender.com/success',  // Adjust this URL
+          cancel_url: 'https://maternity-hub.onrender.com/cancel',    // Adjust this URL
       });
 
       res.json({ sessionId: session.id });
