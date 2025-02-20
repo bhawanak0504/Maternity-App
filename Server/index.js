@@ -27,6 +27,8 @@ app.use(
   cors({
     origin: ["https://maternity-app-chww.onrender.com"], // Ensure this is the correct frontend port
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
+        allowedHeaders: ["Content-Type", "Authorization"],
+
     credentials: true,
   })
 );
